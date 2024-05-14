@@ -1,0 +1,29 @@
+{
+  "manifest_version": 3,
+  "name": "Clipboard",
+  "version": "1.0",
+  "description": "Clipboard manager: Quickly copy and manage text in Chrome.",
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "images/icon.png"
+  },
+  "icons": {
+    "16": "images/icon.png",
+    "48": "images/icon.png",
+    "128": "images/icon.png"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": ["clipboardWrite", "activeTab", "storage", "contextMenus"],
+  "host_permissions": [
+    "http://*/*",
+    "https://*/*"
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": ["*"],
+      "matches": ["<all_urls>"]
+    }
+  ]
+}
