@@ -16,7 +16,7 @@ A Chrome extension to manage your clipboard items efficiently. Easily add, copy,
 
 ## Usage
 
-1. Click on the ClipboardMaster extension icon in the Chrome toolbar.
+1. Click on the Clipboard extension icon in the Chrome toolbar.
 2. Enter text into the input field and click "Add" to save it to your clipboard list.
 3. Click on a clipboard item to copy it to your system clipboard.
 4. Use the delete icon next to each item.
